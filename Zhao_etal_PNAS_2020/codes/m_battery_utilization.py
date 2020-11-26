@@ -13,8 +13,7 @@ from matplotlib.ticker import MultipleLocator #,LinearLocator, FormatStrFormatte
 import seaborn as sns
 # from sklearn import linear_model
 # from sklearn import metrics
-os.chdir('/Users/zhaoyang/Nutstore Files/Nutstore/codes_python/project_03/')
-sys.path.append("./code_upload")
+sys.path.append("./codes")
 import data_load_01
 import data_load_02
 
