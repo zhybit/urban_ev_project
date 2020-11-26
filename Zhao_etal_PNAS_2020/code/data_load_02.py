@@ -8,7 +8,7 @@ import os
 import numpy as np
 #%%
 def get_veh_info():
-    data_path = './data/ev_data1/data_vehicle_feature/'
+    data_path = './data/ev_data/data_vehicle_feature/'
     names = ['data_models.csv', 'data_vehicles.csv']
     data_mod = pd.read_csv(data_path + names[0])
     data_veh = pd.read_csv(data_path + names[1])
@@ -21,12 +21,12 @@ def get_veh_info():
     return data_veh_mod_p
 
 def get_ambient_temp():
-    data_path = './data/ev_data1/data_temp/Region_temp.xlsx'
+    data_path = './data/ev_data/data_temp/Region_temp.xlsx'
     data_temp = pd.read_excel(data_path)
     return data_temp
 
 def get_daily_dist():
-    data_path = './data/ev_data1/data_sta_sets/daily_sets_df.csv'
+    data_path = './data/ev_data/data_sta_sets/daily_sets_df.csv'
     data_dist = pd.read_csv(data_path)
     return data_dist
 
