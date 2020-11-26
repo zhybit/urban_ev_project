@@ -128,7 +128,7 @@ def month_oper_num(gb_drv_mon, gb_chg_mon):
 #%%
 if __name__ == '__main__':
     # Load data
-    data_r = pd.read_csv('./data/ev_data1/data_sta_sets/operate_prof.csv')
+    data_r = pd.read_csv('./data/ev_data/data_sta_sets/operate_prof.csv')
     # Reformat and create features
     data_p1 = data_r.copy()
     data_p1['start_time_dt'] = pd.to_datetime(data_p1['start_time'])
